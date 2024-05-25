@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+
+.mochiy-pop-one-regular {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .container {
+   font-family: "Mochiy Pop One";
+   width: 100%;
+   background-color: bisque;
+  }
+
+  .serviceAll{
+    padding: 5% 8%;
+    
+  }
+
+  .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service h1{
+    color: white;
+    font-size: 40px;
+position: relative;
+  }
+  .service p {
+color: white;
+  }
+.service h2 {
+    color: white;
+      }
+
+.service h1:after{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: 10px;
+    width: 100%;
+    /* border-radius: 20%; */
+    /* background-color: black; */
+    
+}
+.service h1 span{
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    height: 10px;
+    width: 5%;
+    border-radius: 100%;
+    background-color: white;
+    animation: anim 3s linear infinite;
+}
+
+@keyframes anim {
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        left: 90%;
+    }
+}
+
+.cards {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+    margin-top: 80px;
+}
+.card {
+    height: 33,3%;
+    width: 33,3%;
+    background-color: black;
+    padding: 3% 8%;
+    border: 0.2px solid white;
+    border-radius: 8px;
+    transition: .6s;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+.card:after{
+    content: '';
+    position: absolute;
+    top: 150%;
+    left: -200px;
+    width: 120%;
+    transform: rotate(50deg);
+    background-color: #fff;
+    height: 18px;
+    filter: blur(30px);
+    opacity: 0.5;
+    transition: 1s;
+}
+.card:hover:after{
+    width: 225%;
+    top: -100%;
+}
+.card i {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: white;
+}
+.card p {
+    text-align: left;
+    width: 100%;
+    margin: 12px 0px;
+}
+.card:hover{
+    background-color: transparent;
+    transform: translateY(-8px);
+    border-color: black;
+}
+.card:hover i{
+    color: black;
+}
+@media screen and (max-width:1200px){
+    .cards {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:900px){
+    .cards{  
+    grid-template-columns:repeat(1,1fr)   
+}
+.service h1 {
+    font-size: 2.5rem;
+}
+}
+
