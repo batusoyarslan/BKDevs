@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+       background-image: url(assets/mainimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.navbar-content{
+    min-width: 1471px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-middle a{
+    margin: 0 40px;
+    font-size: 18px;
+    color: #C1C1C1;
+}
+
+.navbar-logo{
+    font-size: 30px;
+    color: rgb(218, 213, 209);
+}
+
+.navbar-button{
+    border-radius: 5px;
+    width: 126px;
+    height: 45px;
+    border: 1px solid #4FC3F7;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+.main-content{
+    width: 612px;
+    margin-top: 200px;
+    margin-left: 191px;
+}
+
+.main-header{
+    font-size: 63px;
+    color: white;
+}
+
+.main-h2{
+    font-size: 26px;
+    color: #4FC3F7;
+}
+
+.main-p{
+    font-size: 19px;
+    color: #E1E1E1;
+    line-height: 25px;
+}
+
+.main-button{
+    border-radius: 30px;
+    width: 126px;
+    height: 45px;
+    border: 1px solid #4FC3F7;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+
+.main-header,
+.main-h2,
+.main-p,
+.main-button{
+    margin-top: 20px;
+}
