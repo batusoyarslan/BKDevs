@@ -1,89 +1,109 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style-type: none;
 }
 
-body{
-       background-image: url(assets/mainimg.png);
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-img{
+    background-image: url(assets/bg2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 1080px;
 }
-
 
 .navbar{
+    height: 60px;
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.navbar-content{
-    min-width: 1471px;
-    height: 45px;
-    display: flex;
-    align-items: center;
     justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+    color: white;
 }
 
-.navbar-middle a{
-    margin: 0 40px;
+.logo h1{
+    font-size: 42px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
     font-size: 18px;
-    color: #C1C1C1;
 }
 
-.navbar-logo{
-    font-size: 30px;
-    color: rgb(218, 213, 209);
+.nav-links li a{
+    color: white;
+}
+
+.nav-links li a:hover{
+    color: rgb(39, 172, 255);
 }
 
 .navbar-button{
-    border-radius: 5px;
-    width: 126px;
+    width: 125px;
     height: 45px;
-    border: 1px solid #4FC3F7;
-    cursor: pointer;
+    border: 1px solid rgb(39, 172, 255);
+    border-radius: 12px;
     background-color: transparent;
-    color: white;
-}
-
-
-
-.main-content{
-    width: 612px;
-    margin-top: 200px;
-    margin-left: 191px;
-}
-
-.main-header{
-    font-size: 63px;
-    color: white;
-}
-
-.main-h2{
-    font-size: 26px;
-    color: #4FC3F7;
-}
-
-.main-p{
-    font-size: 19px;
-    color: #E1E1E1;
-    line-height: 25px;
-}
-
-.main-button{
-    border-radius: 30px;
-    width: 126px;
-    height: 45px;
-    border: 1px solid #4FC3F7;
     cursor: pointer;
-    background-color: transparent;
+}
+
+.navbar-button:hover{
+    transform: scale(1.05);
+    font-size: 16px;
+}
+
+.navbar-button a{
     color: white;
 }
 
-.main-header,
-.main-h2,
-.main-p,
-.main-button{
-    margin-top: 20px;
+.homepage-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 180px 180px;
+    gap: 15px;
+    height: 800px;
+    color: white;
+}
+
+.homepage-header{
+    font-size: 60px;
+}
+
+.homepage-w{
+    font-size: 28px;
+}
+
+.homepage-p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 3vh;
+}
+
+.homepage-button{
+    width: 147px;
+    height: 55px;
+    border: 1px solid rgb(39, 172, 255);
+    background-color: transparent;
+    border-radius: 18px;
+    margin-top: 10px;
+}
+
+.homepage-button:hover{
+    transform: scale(1.05);
+}
+
+.homepage-button a{
+    color: white;
+    font-size: 16px;
 }
