@@ -303,7 +303,7 @@ body{
     width: 33,3%;
     background-color: #160b37;
     padding: 3% 8%;
-    border: 0.2px solid rgba(255, 255, 255, 0.463);
+    border: 0.2px solid rgba(255, 255, 255, 0.371);
     border-radius: 8px;
     transition: .6s;
     display: flex;
@@ -362,3 +362,84 @@ body{
     font-size: 2.5rem;
 }
 }
+
+/* Projects */
+
+.projects-section{
+    padding: 80px 0;
+    color: white;
+}
+
+.projects-section .projects-heading{
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.projects-heading{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.projects-heading h1{
+    font-size: 45px;
+}
+
+.projects-heading h2{
+    font-size: 14px;
+}
+
+
+.projects-section .box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.project-desc{
+    margin-top: 15px;
+}
+
+.desc-bottom{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.desc-bottom p{
+    font-size:  14px;
+}
+
+.desc-button{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+}
+
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+
+
+@media (max-width: 768px) {
+    .projects-section .box-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .container {
+        padding: 0 20px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .projects-section .box-container {
+      grid-template-columns: 1fr;
+    }
+  }
