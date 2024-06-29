@@ -26,15 +26,15 @@
         </div>
        <div class="homepage-container">
         <div class="homepage-content">
-            <h1 class="homepage-header">BK DEVS</h1>
-            <h2 class="homepage-w">Web Development</h2>
-            <p class="homepage-p">As a passionate web developer, with expertise in front-end and back-end development, 
+            <h1 class="homepage-header" id="animation-u">BK DEVS</h1>
+            <h2 class="homepage-w" id="animation-d">Web Development</h2>
+            <p class="homepage-p" id="animation-d">As a passionate web developer, with expertise in front-end and back-end development, 
                 responsive design, and user experience optimization, we thrive on the challenges of creating seamless and dynamic web 
                 applications that drive user engagement and innovation.
             </p>
-                <button class="homepage-button"><a href="">Contact Us</a></button>
+                <button class="homepage-button" id="animation-d"><a href="">Contact Us</a></button>
         </div>
-        <div class="language-sphere">
+        <div class="language-sphere" id="pop-up">
             <span class="Sphere"></span>
         </div>
        </div>
@@ -42,21 +42,21 @@
 </div>
 <div class="container">
     <div class="AboutUs">
-        <h1 class="AboutUsh1">About Us</h1>
-        <h2>Get to Know Us</h2>
-        <p class="AboutUsP">
+        <h1 class="AboutUsh1" id="pop-up">About Us</h1>
+        <h2 id="animation-d">Get to Know Us</h2>
+        <p class="AboutUsP" id="animation-d">
             We are a web development company dedicated to helping clients establish and enhance their online presence. <br>
             Our team specializes in creating custom, visually appealing, and user-friendly websites. <br> We offer services in website design, development, and maintenance, ensuring each site is responsive and SEO-optimized. <br>
             We work closely with clients to understand their goals and deliver tailored solutions that drive results. <br>From small businesses to large enterprises, we provide the tools and support necessary for online success. <br>
             Trust us to be your partner in achieving a strong digital presence and business growth.
         </p>
-        <button class="button-20" role="button"><a href="">Download Resume</a></button>
+        <button class="button-20" role="button" id="animation-d"><a href="">Download Resume</a></button>
     </div>
 </div>
 <div class="container">
     <div class="serviceAll">
 <div class="service">
-    <h1>Our Services <span></span></h1>
+    <h1 id="pop-up">Our Services <span></span></h1>
     <div class="cards">
         <div class="card">
             <i class="fa-brands fa-react fa-lg"></i>
@@ -175,6 +175,24 @@
         </div>
     </div>    
 </div>
+<div class="container">
+    <form action="https://api.web3forms.com/submit" method="POST"> 
+        <div class="contactForm"> 
+            <h1>Contact Form</h1>
+            <h2>Lets work together</h2>
+            <input type="hidden" name="access_key" value="0a590b95-0d47-4d06-a7b9-914a73b4c8a2">
+            <p class="input-header">Name</p>
+            <input type="text" name="First" placeholder="" required>
+            <p class="input-header">Last Name</p>
+            <input type="text" name="Last" placeholder="" required>
+            <p class="input-header">Email Adress</p>
+            <input type="email" name="email" placeholder="" required>
+            <p class="input-header">Your Message</p>
+            <textarea rows="5" cols="60" name="message" placeholder="" required></textarea>
+            <button class="button-64" role="button"><span class="text"><a href="">Send</a></span></button>
+        </div>
+    </form>
+   </div>
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
     <script>
         const Texts = [
@@ -207,5 +225,6 @@
         var color = '#FFFFFF ';
         document.querySelector('.Sphere').style.color = color;
     </script>
+    <script src="index.js"></script>
 </body>
 </html>

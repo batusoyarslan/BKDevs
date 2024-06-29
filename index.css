@@ -67,6 +67,7 @@ body{
 
 .navbar-button:hover{
     transform: scale(1.05);
+    background-color: rgb(39, 172, 255);;
 }
 
 .navbar-button a{
@@ -90,15 +91,18 @@ body{
 
 .homepage-header{
     font-size: 60px;
+    transition: opacity 0.2s linear, transform 0.2s linear;
 }
 
 .homepage-w{
     font-size: 28px;
+    transition: opacity 0.4s linear, transform 0.4s linear;
 }
 
 .homepage-p{
     font-size: 16px;
     line-height: 3vh;
+    transition: opacity 0.5s linear, transform 0.5s linear;
 }
 
 .homepage-button{
@@ -109,10 +113,12 @@ body{
     border-radius: 18px;
     margin-top: 10px;
     cursor: pointer;
+    transition: opacity 0.6s linear, transform 0.6s linear;
 }
 
 .homepage-button:hover{
     transform: scale(1.05);
+    background-color: rgb(39, 172, 255);
 }
 
 .homepage-button a{
@@ -120,7 +126,8 @@ body{
     font-size: 16px;
 }
 
- /* Applying CSS to sphere */
+
+
  .tagcloud {
     display: inline-block;
     top: 100px;
@@ -130,7 +137,6 @@ body{
     font-size: 14px;
   }
   
-  /* Change color of each text in sphere on hover   */
   .tagcloud--item:hover {
     color: rgb(83, 188, 254) ;
   }
@@ -212,6 +218,7 @@ body{
 .AboutUs h2{
     font-size: 14px;
     color: rgb(94, 191, 251);
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .AboutUsP {
@@ -219,6 +226,7 @@ body{
     font-size: 17px;
     line-height: 3.7vh;
     padding: 30px 0;
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .button-20{
@@ -228,10 +236,12 @@ body{
     border-radius: 12px;
     cursor: pointer;
     background-color: transparent;
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .button-20:hover{
     transform: scale(1.05);
+    background-color: rgb(39, 172, 255);
 }
 
 .button-20 a{
@@ -443,3 +453,129 @@ body{
       grid-template-columns: 1fr;
     }
   }
+
+  /* Contact Us */
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 80px 0;
+}
+
+.contactForm h1 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.contactForm h2{
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+
+.contactForm input, .contactForm textarea {
+    background-color: white;
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contactForm textarea {
+    height: auto;
+    padding: 16px;
+    margin-bottom: 25px;
+}
+
+.contactForm input:focus-within, .contactForm textarea:focus-within {
+    outline: none;
+    border-width: 2px;
+}
+
+.contactForm input:focus-within {
+    border-color: rgb(39, 172, 255);
+}
+.contactForm textarea:focus-within {
+    border-color: rgb(39, 172, 255);
+}
+
+
+.input-header{
+    text-align: left;
+    width: 60%;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.button-64{
+    width: 60%;
+    height: 56px;
+    border: 1px solid rgb(39, 172, 255);
+    border-radius: 12px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-64 a{
+    text-decoration: none;
+    color: white;
+}
+  
+.button-64:hover{
+    transform: scale(1.05);
+    background-color: rgb(39, 172, 255);
+}
+
+  @media (min-width: 768px) {
+    .button-64 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
+
+  /* animations */
+  
+  #animation-d, #animation-u, #animation-r, #animation-l, #pop-up {
+    opacity: 0;
+}
+
+#animation-d {
+    transform: translateY(50px);
+}
+
+#animation-u {
+    transform: translateY(-50px);
+}
+
+#animation-r {
+    transform: translateX(50px);
+}
+
+#animation-l {
+    transform: translateX(-50px);
+}
+
+#pop-up{
+    transform: scale(0);
+    transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+
+
+#animation-d.show, #animation-u.show, #animation-r.show, #animation-l.show, #pop-up.show  {
+    opacity: 1;
+    transform: translate(0);
+}
+
+#pop-up.show{
+    transform: scale(1);
+
+}
