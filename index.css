@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ .main-img{
+    background-image: url(assets/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1080px;
+} 
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    color: white;
+}
+
+.logo h1{
+    font-size: 42px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+}
+
+.nav-links li a{
+    color: white;
+}
+
+.nav-links li a:hover{
+    color: rgb(39, 172, 255);
+}
+
+.navbar-button{
+    width: 125px;
+    height: 45px;
+    border: 1px solid rgb(39, 172, 255);
+    border-radius: 12px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.navbar-button:hover{
+    transform: scale(1.05);
+}
+
+.navbar-button a{
+    color: white;
+}
+
+.homepage-container{
+    display: flex;
+    gap: 130px;
+    padding: 30px 0;
+}
+
+.homepage-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    height: 800px;
+    color: white;
+}
+
+.homepage-header{
+    font-size: 60px;
+}
+
+.homepage-w{
+    font-size: 28px;
+}
+
+.homepage-p{
+    font-size: 16px;
+    line-height: 3vh;
+}
+
+.homepage-button{
+    width: 147px;
+    height: 55px;
+    border: 1px solid rgb(39, 172, 255);
+    background-color: transparent;
+    border-radius: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.homepage-button:hover{
+    transform: scale(1.05);
+}
+
+.homepage-button a{
+    color: white;
+    font-size: 16px;
+}
+
+ /* Applying CSS to sphere */
+ .tagcloud {
+    display: inline-block;
+    top: 100px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+  }
+  
+  /* Change color of each text in sphere on hover   */
+  .tagcloud--item:hover {
+    color: rgb(83, 188, 254) ;
+  }
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 20px; 
+    }
+
+    .navbar {
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        display: none;
+    }
+
+    .homepage-content {
+        padding: 150px 20px;
+        height: auto;
+        align-items: center;
+    }
+
+    .homepage-header {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .homepage-w {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .homepage-p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .homepage-button {
+        width: 120px;
+        height: 45px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .homepage-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .language-sphere{
+        display: none;
+    }
+}
