@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
     <title>BKDevs</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -20,6 +23,7 @@
             </ul>
             <button class="navbar-button"><a href="">Contact Us</a></button>
         </div>
+       <div class="homepage-container">
         <div class="homepage-content">
             <h1 class="homepage-header">BK DEVS</h1>
             <h2 class="homepage-w">Web Development</h2>
@@ -29,7 +33,43 @@
             </p>
                 <button class="homepage-button"><a href="">Contact Us</a></button>
         </div>
+        <div class="language-sphere">
+            <span class="Sphere"></span>
+        </div>
+       </div>
     </div>
 </div>
+    <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <script>
+        const Texts = [
+            'HTML', 'CSS', 'JAVASCRIPT',
+            'GIT', 'SQL', 'REACT',
+            'STRAPI', 'SASS',
+            'FIGMA', 'VS CODE', 'BOOTSTRAP',
+            'TAILWIND', 'MYSQL', 'JQUERY', 'NEXTJS'
+        ];
+
+        var tagCloud = TagCloud('.Sphere', Texts, {
+
+            // Sphere radius in px
+            radius: 230,
+
+            // animation speed
+            // slow, normal, fast
+            maxSpeed: 'fast',
+            initSpeed: 'fast',
+
+            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
+            direction: 135,
+
+            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
+            keep: true
+
+        });
+
+        // Giving color to each text in sphere
+        var color = '#FFFFFF ';
+        document.querySelector('.Sphere').style.color = color;
+    </script>
 </body>
 </html>
