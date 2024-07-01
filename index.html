@@ -273,26 +273,18 @@
             'TAILWIND', 'MYSQL', 'JQUERY', 'NEXTJS'
         ];
 
+        var radius = window.innerWidth < 600 ? 180 : 230; 
+
         var tagCloud = TagCloud('.Sphere', Texts, {
-
-            // Sphere radius in px
-            radius: 230,
-
-            // animation speed
-            // slow, normal, fast
+            radius: radius,
             maxSpeed: 'fast',
             initSpeed: 'fast',
-
-            // Rolling direction [0 (top) , 90 (left), 135 (right-bottom)] 
             direction: 135,
-
-            // interaction with mouse or not [Default true (decelerate to rolling init speed, and keep rolling with mouse).]
             keep: true
-
         });
 
-        // Giving color to each text in sphere
-        var color = '#FFFFFF ';
+       
+        var color = '#FFFFFF';
         document.querySelector('.Sphere').style.color = color;
     </script>
 
@@ -300,12 +292,12 @@
     window.onload = function() {
         setTimeout(function() {
             var page = document.getElementById('page');
-            page.style.transition = 'opacity 0.5s';  // Daha hızlı geçiş için 0.5 saniye
+            page.style.transition = 'opacity 0.5s';  
             page.style.opacity = 0;
             setTimeout(function() {
                 page.style.display = 'none';
-            }, 500);  // Geçiş süresi kadar bekleyin (0.5 saniye)
-        }, 2000);  // 2 saniye bekledikten sonra geçiş başlasın
+            }, 500);  
+        }, 1000);  
     };
 </script>
     <script src="index.js"></script>
