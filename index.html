@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+    <div class="loader"> 
+    <div id="page">
+        <div id="container">
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="ring"></div>
+            <div id="h3"></div>
+        </div>
+</div>
+
+</div>
     <div class="main-img">
     <div class="container">
         <div class="navbar">
@@ -250,7 +263,6 @@
         <p>&copy; 2024 BKDevs All rights reserved</p>
     </div>
 </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
     <script>
         const Texts = [
@@ -283,6 +295,19 @@
         var color = '#FFFFFF ';
         document.querySelector('.Sphere').style.color = color;
     </script>
+
+<script>
+    window.onload = function() {
+        setTimeout(function() {
+            var page = document.getElementById('page');
+            page.style.transition = 'opacity 0.5s';  // Daha hızlı geçiş için 0.5 saniye
+            page.style.opacity = 0;
+            setTimeout(function() {
+                page.style.display = 'none';
+            }, 500);  // Geçiş süresi kadar bekleyin (0.5 saniye)
+        }, 2000);  // 2 saniye bekledikten sonra geçiş başlasın
+    };
+</script>
     <script src="index.js"></script>
 </body>
 </html>

@@ -15,3 +15,14 @@ const observer = new IntersectionObserver(
 upAnimationElements.forEach(element => {
     observer.observe(element);
 });
+
+
+
+// $(window).on('load', function() {
+//    setTimeout(function() {
+//        $(".loader").addClass('hidden');
+//        $(".loader").fadeOut(1000);
+//        console.log('Loader hidden class added'); // Konsolda bu mesajı kontrol edin
+//        $(".container").fadeIn(1000);
+//    }, 2000); // 2 saniye bekler
+// });
