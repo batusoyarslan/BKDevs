@@ -159,7 +159,7 @@ body{
     }
 
     .homepage-content {
-        padding: 150px 20px;
+        padding-top: 60px;
         height: auto;
         align-items: center;
     }
@@ -189,11 +189,26 @@ body{
     .homepage-container{
         display: flex;
         flex-direction: column;
+        gap: 0px;
+    }
+
+    .circles{
+        display: flex;
+        flex-direction: column;
     }
 
     .language-sphere{
-        display: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+    .tagcloud{
+        max-width: 330px;
+        top: 50px;
+        font-size: 12px;
+    }
+
 }
 
 /* About Us */
@@ -728,4 +743,17 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .circle{
+        width: 400px;
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        padding: 0 20px; 
+    }
 }
