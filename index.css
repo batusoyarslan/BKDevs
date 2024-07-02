@@ -412,6 +412,7 @@ body{
 
 .projects-heading h2{
     font-size: 14px;
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 
@@ -490,6 +491,11 @@ body{
 .contactForm h2{
     font-size: 14px;
     margin-bottom: 60px;
+    transition: opacity 0.1s linear, transform 0.3s linear;
+}
+
+.contactForm p{
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .contactForm input, .contactForm textarea {
@@ -503,6 +509,7 @@ body{
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .contactForm textarea {
@@ -538,6 +545,7 @@ body{
     border-radius: 12px;
     background-color: transparent;
     cursor: pointer;
+    transition: opacity 0.1s linear, transform 0.3s linear;
 }
 
 .button-64 a{
@@ -850,3 +858,20 @@ h3 {
     }
   }
   
+
+  .cards:nth-child(1),
+  .cards:nth-child(4){
+    transition: opacity 0.1s linear, transform 0.3s linear;
+  }
+
+  .box:nth-child(1),
+  .box:nth-child(2),
+  .box:nth-child(3){
+    transition: opacity 0.1s linear, transform 0.3s linear;
+  }
+
+  .box:nth-child(4),
+  .box:nth-child(5),
+  .box:nth-child(6){
+    transition: opacity 0.1s linear, transform 0.3s linear;
+  }
