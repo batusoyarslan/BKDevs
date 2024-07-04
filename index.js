@@ -18,11 +18,17 @@ upAnimationElements.forEach(element => {
 
 
 
-// $(window).on('load', function() {
-//    setTimeout(function() {
-//        $(".loader").addClass('hidden');
-//        $(".loader").fadeOut(1000);
-//        console.log('Loader hidden class added'); // Konsolda bu mesajı kontrol edin
-//        $(".container").fadeIn(1000);
-//    }, 2000); // 2 saniye bekler
-// });
+// // Yeni durum objesi oluşturma
+// var stateObj = { foo: "bar" };
+
+// // URL'yi değiştirme
+// history.pushState(stateObj, "Yeni Başlık", "/BKDevs");
+
+
+
+
+
+
+
+
+
