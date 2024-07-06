@@ -41,7 +41,7 @@ body{
 }
 
 .logo h1{
-    font-size: 42px;
+        font-size: clamp(20px, 4vw, 42px);
 }
 
 .nav-links{
