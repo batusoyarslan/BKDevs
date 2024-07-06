@@ -771,7 +771,7 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
     .container {
         padding: 0 20px; 
     }
