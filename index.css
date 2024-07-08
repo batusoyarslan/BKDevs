@@ -455,10 +455,12 @@ body{
     cursor: pointer;
 }
 
+
 .box img{
     width: 100%;
     height: 200px;
     border-radius: 12px;
+    object-fit: contain;
 }
 
 
