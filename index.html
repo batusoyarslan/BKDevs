@@ -9,6 +9,7 @@
     <link rel="icon" href="assets/bk.ico">
     <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>BK Devs</title>
     <link rel="stylesheet" href="index.css">
 </head>
@@ -28,24 +29,28 @@
 </div>
     <div class="main-img">
     <div class="container">
+        <div class="bottom-right">
+            <button id="btn-tr">Türkçe</button>
+            <button id="btn-en">English</button>
+          </div>
         <div class="navbar">
             <div class="logo"><h1>BKDEVS</h1></div>
                 <ul class="nav-links">
-                <li><a href="">Home</a></li>
-                 <li><a href="#AboutUS">About</a></li>
-                 <li><a href="#Projects" class="change-url">Projects</a></li>
-                 <li><a href="#Services">Services</a></li>
-                 <li><a href="#Team">Team</a></li>
+                <li><a href="" key="1">Home</a></li>
+                 <li><a href="#AboutUS" key="2">About</a></li>
+                 <li><a href="#Projects" class="change-url" key="3">Projects</a></li>
+                 <li><a href="#Services" key="4">Services</a></li>
+                 <li><a href="#Team" key="5">Team</a></li>
             </ul>
-            <button class="navbar-button"><a href="#ContactUS">Contact Us</a></button>
+            <button class="navbar-button"><a href="#ContactUS" key="6">Contact Us</a></button>
         </div>
        <div class="homepage-container">
         <div class="homepage-content">
             <h1 class="homepage-header" id="animation-u">BK DEVS</h1>
             <h2 class="homepage-w"  id="animated-text">Web Development</h2>
-            <p class="homepage-p" id="animation-d">As passionate web developers with expertise in front-end and back-end development, responsive design, and user experience optimization, we thrive on the challenges of creating seamless and dynamic web applications that drive user engagement and innovation.
+            <p class="homepage-p" id="animation-d" key="7">As passionate web developers with expertise in front-end and back-end development, responsive design, and user experience optimization, we thrive on the challenges of creating seamless and dynamic web applications that drive user engagement and innovation.
             </p>
-                <button class="homepage-button" id="animation-d"><a href="#ContactUS">Contact Us</a></button>
+                <button class="homepage-button" id="animation-d"><a href="#ContactUS" key="6">Contact Us</a></button>
         </div>
         <div class="language-sphere" id="pop-up">
             <span class="Sphere"></span>
@@ -55,61 +60,61 @@
 </div>
 <div class="container" id="AboutUS">
     <div class="AboutUs">
-        <h1 class="AboutUsh1" id="pop-up">About Us</h1>
-        <h2 id="animation-d">Get to Know Us</h2>
-        <p class="AboutUsP" id="animation-d">
+        <h1 class="AboutUsh1" id="pop-up" key="8">About Us</h1>
+        <h2 id="animation-d" key="9">Get to Know Us</h2>
+        <p class="AboutUsP" id="animation-d" key="10">
             We are a web development company dedicated to helping clients establish and enhance their online presence. <br>
             Our team specializes in creating custom, visually appealing, and user-friendly websites. <br> We offer services in website design, development, and maintenance, ensuring each site is responsive and SEO-optimized. <br>
             We work closely with clients to understand their goals and deliver tailored solutions that drive results. <br>From small businesses to large enterprises, we provide the tools and support necessary for online success. <br>
             Trust us to be your partner in achieving a strong digital presence and business growth.
         </p>
-        <button class="button-20" role="button" id="animation-d"><a href="">Download Resume</a></button>
+        <button class="button-20" role="button" id="animation-d"><a href="" key="11">Download Resume</a></button>
     </div>
 </div>
 <div class="container">
     <div class="serviceAll" id="Services">
 <div class="service">
-    <h1 id="pop-up">Our Services <span></span></h1>
+    <h1 id="pop-up" key="12">Our Services <span></span></h1>
     <div class="cards">
         <div class="card" id="animation-l">
             <i class="fa-brands fa-react fa-lg"></i>
-            <h2>Responsive Web Design</h2>
-            <p>Websites automatically adjust to look good on any device or screen size for a better user experience.
+            <h2 key="13">Responsive Web Design</h2>
+            <p key="14">Websites automatically adjust to look good on any device or screen size for a better user experience.
             </p>
           
         </div>
         <div class="card" id="animation-l">
             <i class="fa-solid fa-code fa-lg"></i>
-            <h2>Website Maintenance and Support</h2>
-            <p>Regular updates, fixes, and help to keep a website running smoothly and securely.
+            <h2 key="15">Website Maintenance and Support</h2>
+            <p key="16">Regular updates, fixes, and help to keep a website running smoothly and securely.
             </p>
           
         </div>
         <div class="card" id="animation-l">
             <i class="fa-solid fa-laptop-code fa-lg"></i>
-            <h2>SPA Development</h2>
-            <p>Building Single Page Applications that load content dynamically without reloading the page. 
+            <h2 key="17">SPA Development</h2>
+            <p key="18">Building Single Page Applications that load content dynamically without reloading the page. 
             </p>
           
         </div>
         <div class="card" id="animation-l">
             <i class="fa-solid fa-sitemap fa-lg"></i>
-            <h2>Front-end Debugging</h2>
-            <p>Finding and fixing issues in a website’s design and user interface. 
+            <h2 key="19">Front-end Debugging</h2>
+            <p key="20">Finding and fixing issues in a website’s design and user interface. 
             </p>
           
         </div>
         <div class="card" id="animation-l">
             <i class="fa-solid fa-robot fa-lg"></i>
-            <h2>JavaScript Development</h2>
-            <p>Creating interactive features and functionality for websites using JavaScript programming language.
+            <h2 key="21">JavaScript Development</h2>
+            <p key="22">Creating interactive features and functionality for websites using JavaScript programming language.
             </p>
           
         </div>
         <div class="card" id="animation-l">
             <i class="fa-solid fa-layer-group fa-lg"></i>
-            <h2>UI/UX Design</h2>
-            <p>Designing user interfaces and experiences for websites or apps to be intuitive and enjoyable. 
+            <h2 key="23">UI/UX Design</h2>
+            <p key="24">Designing user interfaces and experiences for websites or apps to be intuitive and enjoyable. 
             </p>
           
         </div>
@@ -120,16 +125,16 @@
 <div class="container" id="Projects">
     <div class="projects-section">
         <div class="projects-heading">
-            <h1 id="pop-up">Projects</h1>
-            <h2 id="animation-d">Some of our Work</h2>
+            <h1 id="pop-up" key="33">Projects</h1>
+            <h2 id="animation-d" key="25">Some of our Work</h2>
         </div>
         <div class="box-container">
             <div class="box" id="animation-l">
                 <img src="assets/12logo_gm.webp" alt="">
                 <div class="project-desc">
-                    <h2>GM GRUP</h2>
+                    <h2">GM GRUP</h2>
                     <div class="desc-bottom">
-                        <p>Dynamic web design for management consulting</p>
+                        <p key="26">Dynamic web design for management consulting</p>
                         <a href="https://gmgrup.org" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -139,7 +144,7 @@
                 <div class="project-desc">
                     <h2>Arteis</h2>
                     <div class="desc-bottom">
-                        <p>Innovative web platform for tech company</p>
+                        <p key="27">Innovative web platform for tech company</p>
                         <a href="https://arteis.netlify.app" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -149,7 +154,7 @@
                 <div class="project-desc">
                     <h2>Coffee Craft</h2>
                     <div class="desc-bottom">
-                        <p>Clean and functional coffee shop web layout.</p>
+                        <p key="28">Clean and functional coffee shop web layout.</p>
                         <a href="https://coffeecraft.netlify.app/" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -159,7 +164,7 @@
                 <div class="project-desc">
                     <h2>BK METRICS</h2>
                     <div class="desc-bottom">
-                        <p>Advanced crypto trading bot for Telegram</p>
+                        <p key="29">Advanced crypto trading bot for Telegram</p>
                         <a href="https://bkmetrics.netlify.app" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -169,7 +174,7 @@
                 <div class="project-desc">
                     <h2>MYSTERY BOB</h2>
                     <div class="desc-bottom">
-                        <p>Exquisite collection of exclusive pixel art NFTs</p>
+                        <p key="30">Exquisite collection of exclusive pixel art NFTs</p>
                         <a href="" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -177,9 +182,9 @@
             <div class="box" id="animation-l">
                 <img src="assets/12Başlıksız-1.png" alt="">
                 <div class="project-desc">
-                    <h2>COMING SOON</h2>
+                    <h2 key="31">COMING SOON</h2>
                     <div class="desc-bottom">
-                        <p>Our project, which is currently under construction, will be available soon...</p>
+                        <p key="32">Our project, which is currently under construction, will be available soon...</p>
                         <a href="" target="_blank"><button class="desc-button"><i class="fa-solid fa-location-arrow"></i></button></a>
                     </div>
                 </div>
@@ -190,7 +195,7 @@
 </div>
 <div class="container" id="Team">
     <div class="team-section">
-        <h1 id="pop-up">Our Team</h1>
+        <h1 id="pop-up" key="34">Our Team</h1>
         <div class="circles" id="pop-up">
             <div class="circle-container">
                 <div class="circle">
@@ -198,7 +203,7 @@
                 </div>
                 <div class="circle-p">
                     <p>Kartal Akyildiz</p>
-                    <p>Software Developer</p>
+                    <p key="35">Software Developer</p>
                 </div>
             </div>
             <div class="circle-container">
@@ -207,7 +212,7 @@
                 </div>
                 <div class="circle-p">
                     <p>Batuhan Soyarslan</p>
-                    <p>Software Developer</p>
+                    <p key="35">Software Developer</p>
                 </div>
             </div>
         </div>
@@ -217,42 +222,42 @@
 <div class="container" id="ContactUS">
     <form action="https://api.web3forms.com/submit" method="POST"> 
         <div class="contactForm"> 
-            <h1 id="pop-up">Contact Form</h1>
-            <h2 id="animation-d">Lets work together</h2>
+            <h1 id="pop-up" key="36">Contact Form</h1>
+            <h2 id="animation-d" key="37">Lets work together</h2>
             <input type="hidden" name="access_key" value="0a590b95-0d47-4d06-a7b9-914a73b4c8a2">
-            <p class="input-header" id="animation-l">Name</p>
+            <p class="input-header" id="animation-l" key="38">Name</p>
             <input type="text" name="First" placeholder="" required id="animation-l">
-            <p class="input-header" id="animation-l">Last Name</p>
+            <p class="input-header" id="animation-l" key="39">Last Name</p>
             <input type="text" name="Last" placeholder="" required id="animation-l">
-            <p class="input-header" id="animation-l">Email Adress</p>
+            <p class="input-header" id="animation-l" key="40">Email Adress</p>
             <input type="email" name="email" placeholder="" required id="animation-l">
-            <p class="input-header" id="animation-l">Your Message</p>
+            <p class="input-header" id="animation-l" key="41">Your Message</p>
             <textarea rows="5" cols="60" name="message" placeholder="" required id="animation-l"></textarea>
-            <button class="button-64" role="button" id="animation-d"><span class="text"><a href="">Send</a></span></button>
+            <button class="button-64" role="button" id="animation-d"><span class="text"><a href="" key="42">Send</a></span></button>
         </div>
     </form>
    </div>
    <footer>
     <div class="footercontainer">
         <div class="footer-content">
-            <h3>Contact Us</h3>
+            <h3 key="43">Contact Us</h3>
             <p>Bkdevs@hotmail.com</p>
             <p>+90 536 501 40 40 <br>
             </p>
             <p>+90 535 697 45 86</p>
         </div>
         <div class="footer-content">
-            <h3>Pages</h3>
+            <h3 key="44">Pages</h3>
              <ul class="list">
-                <li><a href="">Home</a></li>
-                <li><a href="#AboutUS">About Us</a></li>
-                <li><a href="#Services">Services</a></li>
-                <li><a href="#Projects">Projects</a></li>
-                <li><a href="#Team">Team</a></li>
+                <li><a href="" key="1">Home</a></li>
+                <li><a href="#AboutUS" key="2">About Us</a></li>
+                <li><a href="#Services" key="4">Services</a></li>
+                <li><a href="#Projects" key="3">Projects</a></li>
+                <li><a href="#Team" key="5">Team</a></li>
              </ul>
         </div>
         <div class="footer-content">
-            <h3>Social Media</h3>
+            <h3 key="45">Social Media</h3>
             <ul class="social-icons">
              <li><a href="https://wa.me/+905365014040" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
              <li><a href="https://www.linkedin.com/company/bksoftware/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -301,5 +306,6 @@
     };
 </script>
     <script src="index.js"></script>
+    <script src="languages.js"></script>
 </body>
 </html>
