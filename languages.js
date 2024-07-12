@@ -7,49 +7,49 @@ $(document).ready(function() {
             '4': 'Hizmetler',
             '5': 'Ekip',
             '6': 'Bize Ulasın',
-            '7': 'Ön yüz ve arka yüz geliştirme, duyarlı tasarım ve kullanıcı deneyimi optimizasyonu konularında uzman, tutkulu web geliştiricileri olarak, kullanıcı etkileşimini ve yeniliği artıran, sorunsuz ve dinamik web uygulamaları oluşturmanın zorluklarından keyif alıyoruz.',
+            '7': 'Ön yüz ve arka yüz gelistirme, duyarlı tasarım ve kullanıcı deneyimi optimizasyonu konularında uzman, tutkulu web gelistiricileri olarak, kullanıcı etkilesimini ve yeniliği artıran, sorunsuz ve dinamik web uygulamaları olusturmanın zorluklarından keyif alıyoruz.',
             
             //About us
             '8': 'Hakkımızda',
             '9': 'Bizi Tanıyın',
-            '10': ' Biz, müşterilerimizin çevrimiçi varlıklarını oluşturup geliştirmelerine yardımcı olmaya adanmış bir web geliştirme şirketiyiz. Ekibimiz, özel, görsel olarak çekici ve kullanıcı dostu web siteleri oluşturmada uzmanlaşmıştır. Web sitesi tasarımı, geliştirme ve bakım hizmetleri sunarak her sitenin duyarlı ve SEO uyumlu olmasını sağlıyoruz. Müşterilerimizin hedeflerini anlamak ve sonuç odaklı çözümler sunmak için yakından çalışıyoruz. Küçük işletmelerden büyük kuruluşlara kadar, çevrimiçi başarı için gerekli araçları ve desteği sağlıyoruz. Güçlü bir dijital varlık ve iş büyümesi elde etmek için güvenilir ortağınız olmaya hazırız.',
-            '11': 'Öz Geçmişimiz',
+            '10': ' Biz, müsterilerimizin çevrimiçi varlıklarını olusturup gelistirmelerine yardımcı olmaya adanmıs bir web gelistirme sirketiyiz. Ekibimiz, özel, görsel olarak çekici ve kullanıcı dostu web siteleri olusturmada uzmanlasmıstır. Web sitesi tasarımı, gelistirme ve bakım hizmetleri sunarak her sitenin duyarlı ve SEO uyumlu olmasını sağlıyoruz. Müsterilerimizin hedeflerini anlamak ve sonuç odaklı çözümler sunmak için yakından çalısıyoruz. Küçük isletmelerden büyük kuruluslara kadar, çevrimiçi basarı için gerekli araçları ve desteği sağlıyoruz. Güçlü bir dijital varlık ve is büyümesi elde etmek için güvenilir ortağınız olmaya hazırız.',
+            '11': 'Öz Geçmisimiz',
             
             //Services
             '12': 'Hizmetlerimiz',
             '13': 'Duyarlı Web Tasarımı',
-            '14': 'Web siteleri, daha iyi bir kullanıcı deneyimi için otomatik olarak herhangi bir cihaz veya ekran boyutuna uyacak şekilde ayarlanır.',
+            '14': 'Web siteleri, daha iyi bir kullanıcı deneyimi için otomatik olarak herhangi bir cihaz veya ekran boyutuna uyacak sekilde ayarlanır.',
             '15': 'Web Sitesi Bakım ve Destek',
-            '16': 'Bir web sitesinin sorunsuz ve güvenli bir şekilde çalışmasını sağlamak için düzenli güncellemeler, düzeltmeler ve yardım.',
-            '17': 'SPA Geliştirme',
-            '18': 'Sayfayı yeniden yüklemeden içeriği dinamik olarak yükleyen Tek Sayfa Uygulamaları oluşturma.',
+            '16': 'Bir web sitesinin sorunsuz ve güvenli bir sekilde çalısmasını sağlamak için düzenli güncellemeler, düzeltmeler ve yardım.',
+            '17': 'SPA Gelistirme',
+            '18': 'Sayfayı yeniden yüklemeden içeriği dinamik olarak yükleyen Tek Sayfa Uygulamaları olusturma.',
             '19': 'Ön Yüz Hata Ayıklama',
             '20': 'Bir web sitesinin tasarımında ve kullanıcı arayüzünde sorunları bulma ve düzeltme.',
-            '21': 'JavaScript Geliştirme',
-            '22': 'JavaScript programlama dili kullanarak web siteleri için etkileşimli özellikler ve işlevler oluşturma.',
+            '21': 'JavaScript Gelistirme',
+            '22': 'JavaScript programlama dili kullanarak web siteleri için etkilesimli özellikler ve islevler olusturma.',
             '23': 'UI/UX Tasarımı',
-            '24': 'Web siteleri veya uygulamalar için kullanıcı arayüzlerini ve deneyimlerini sezgisel ve keyifli olacak şekilde tasarlama.',
+            '24': 'Web siteleri veya uygulamalar için kullanıcı arayüzlerini ve deneyimlerini sezgisel ve keyifli olacak sekilde tasarlama.',
 
             //Projects
             '33': 'Projeler',
-            '25': 'Bazı Çalışmalarımız',
-            '26': 'Yönetim danışmanlığı için dinamik web tasarımı',
-            '27': 'Teknoloji şirketi için yenilikçi web platformu',
-            '28': 'Temiz ve işlevsel kahve dükkanı web düzeni',
-            '29': 'Telegram için gelişmiş kripto ticaret botu',
+            '25': 'Bazı Çalısmalarımız',
+            '26': 'Yönetim danısmanlığı için dinamik web tasarımı',
+            '27': 'Teknoloji sirketi için yenilikçi web platformu',
+            '28': 'Temiz ve islevsel kahve dükkanı web düzeni',
+            '29': 'Telegram için gelismis kripto ticaret botu',
             '30': 'Özel piksel sanatı NFTlerinin zarif koleksiyonu',
             '31': 'YAKINDA',
-            '32': 'Şu anda yapım aşamasında olan projemiz yakında yayında olacak...',
+            '32': 'Su anda yapım asamasında olan projemiz yakında yayında olacak...',
 
 
             //Takım
             '34': 'Ekibimiz',
-            '35': 'Yazılım Geliştiricisi',
+            '35': 'Yazılım Gelistiricisi',
 
 
              //Contact Us
-             '36': 'İletişim Formu',
-             '37': 'Beraber Çalışalım',
+             '36': 'İletisim Formu',
+             '37': 'Beraber Çalısalım',
              '38': 'İsminiz',
              '39': 'Soyisminiz',
              '40': 'E-Posta Adresiniz',
@@ -57,7 +57,7 @@ $(document).ready(function() {
              '42': 'Gönder',
 
              //Footer
-             '43': 'İletişim',
+             '43': 'İletisim',
              '44': 'Sayfalar',
              '45': 'Sosyal Medya',
 
@@ -106,7 +106,7 @@ $(document).ready(function() {
        
        
             //Team
-            '34': 'Projects',
+            '34': 'Our Team',
             '35': 'Software Developer',
        
             //Contact Us
