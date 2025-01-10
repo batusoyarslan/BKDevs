@@ -13,7 +13,7 @@ $(document).ready(function() {
             '8': 'Hakkımızda',
             '9': 'Bizi Tanıyın',
             '10': ' Biz, müsterilerimizin çevrimiçi varlıklarını olusturup gelistirmelerine yardımcı olmaya adanmıs bir web gelistirme sirketiyiz. Ekibimiz, özel, görsel olarak çekici ve kullanıcı dostu web siteleri olusturmada uzmanlasmıstır. Web sitesi tasarımı, gelistirme ve bakım hizmetleri sunarak her sitenin duyarlı ve SEO uyumlu olmasını sağlıyoruz. Müsterilerimizin hedeflerini anlamak ve sonuç odaklı çözümler sunmak için yakından çalısıyoruz. Küçük isletmelerden büyük kuruluslara kadar, çevrimiçi basarı için gerekli araçları ve desteği sağlıyoruz. Güçlü bir dijital varlık ve is büyümesi elde etmek için güvenilir ortağınız olmaya hazırız.',
-            '11': 'Öz Geçmisimiz',
+            '11': 'Bizimle İletisime Gecin',
             
             //Services
             '12': 'Hizmetlerimiz',
@@ -38,8 +38,8 @@ $(document).ready(function() {
             '28': 'Temiz ve islevsel kahve dükkanı web düzeni',
             '29': 'Telegram için gelismis kripto ticaret botu',
             '30': 'Özel piksel sanatı NFTlerinin zarif koleksiyonu',
-            '31': 'YAKINDA',
-            '32': 'Su anda yapım asamasında olan projemiz yakında yayında olacak...',
+            '31': 'ERL Hava Filtreleme Sistemleri',
+            '32': 'Daha temiz ve sağlıklı ortamlar için yenilikçi ve çevre dostu çözümler sunan öncü bir hava filtreleme şirketi.',
 
 
             //Takım
@@ -76,7 +76,7 @@ $(document).ready(function() {
             '8': 'About Us',
             '9': 'Get to Know Us',
             '10': ' We are a web development company dedicated to helping clients establish and enhance their online presence. Our team specializes in creating custom, visually appealing, and user-friendly websites. We offer services in website design, development, and maintenance, ensuring each site is responsive and SEO-optimized. We work closely with clients to understand their goals and deliver tailored solutions that drive results. From small businesses to large enterprises, we provide the tools and support necessary for online success. Trust us to be your partner in achieving a strong digital presence and business growth.',
-            '11': 'Download Resume',
+            '11': 'Contact Us',
             
             //Services
             '12': 'Our Services',
@@ -101,8 +101,8 @@ $(document).ready(function() {
             '28': 'Clean and functional coffee shop web layout.',
             '29': 'Advanced crypto trading bot for Telegram',
             '30': 'Exquisite collection of exclusive pixel art NFTs',
-            '31': 'COMING SOON',
-            '32': 'Our project, which is currently under construction, will be available soon...',
+            '31': 'ERL Filtering System',
+            '32': 'A leading air filtration company delivering innovative and eco-friendly solutions for cleaner and healthier environments.',
        
        
             //Team
